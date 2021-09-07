@@ -214,7 +214,15 @@ figcaption{
 
    
 
- 
+ .card {
+        list-style-type: disc;
+        padding: 2em 2em 0 2em;
+        line-height: 1.5em;
+        flex:50%;
+        font-size: x-large;
+    
+        
+      }
 
  .BlueWaterSourcing, .InvestOttawa {
      box-sizing: border-box;
