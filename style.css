@@ -490,6 +490,12 @@ color: #000;
  left: 15em;
 }
 
+.responsive{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 
 @media (max-width:800px){
    .BWS-container, .WPM-container, .CBB-container{       
@@ -566,5 +572,13 @@ p{
    display: inline;
 }
 
+}
+
+ @media (max-width:360px) {
+    .responsive{
+        max-width: 300px;
+
+    }
+    
 }
 
